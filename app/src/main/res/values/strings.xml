@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kamus Tanaman</string>
+    <string name="mencari_data">Mencari Data</string>
+    <string name="image_tumbuhan">Image Tumbuhan</string>
+    <string name="nama">Nama</string>
+    <string name="cari_berdasarkan">Cari Berdasarkan</string>
+    <string name="tentang">Tentang</string>
+    <string name="cari">Cari</string>
+    <string name="keyword">Keyword</string>
+    <string name="pencarian_tanaman_obat">Kamus Digital Tanaman Obat</string>
+    <string name="search">Search</string>
+    <string name="cari_tanaman">Cari Tanaman</string>
+</resources>

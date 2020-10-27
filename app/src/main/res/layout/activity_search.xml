@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_ok"
+    tools:context=".activity.search.SearchActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:titleTextColor="@android:color/black"/>
+
+
+    <TextView
+        android:id="@+id/tv_keyword"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsr"
+        tools:text="Keyword : Budi Agung" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsr"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:layout_marginStart="10dp"
+        tools:text="Keyword : Budi Agung" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            tools:listitem="@layout/item_list" />
+
+    <include
+        android:id="@+id/layout_progress_search"
+        layout="@layout/progress_layout"
+        android:visibility="gone" />
+</LinearLayout>
