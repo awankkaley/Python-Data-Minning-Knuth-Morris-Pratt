@@ -18,7 +18,7 @@ class ApiClient() {
     fun create(context: Context?): ApiInterface {
         preference = UserPreference(context)
         httpLoggingInterceptor.level = HttpLoggingInterceptor.Level.BODY;
-        val BASE_URL = "http://${preference.ip}:5004"
+        val BASE_URL = "http://45.13.132.247:5004"
         val okHttpClient = OkHttpClient.Builder()
             .readTimeout(1000, TimeUnit.SECONDS)
             .writeTimeout(1000, TimeUnit.SECONDS)

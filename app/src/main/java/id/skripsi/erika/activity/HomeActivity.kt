@@ -25,9 +25,9 @@ class HomeActivity : AppCompatActivity() {
         btn_search.onClick {
             startActivity(intentFor<SearchActivity>())
         }
-        imageView3.onLongClick {
-            startActivity(intentFor<SetupActivity>())
-        }
+//        imageView3.onLongClick {
+//            startActivity(intentFor<SetupActivity>())
+//        }
     }
 
 }
